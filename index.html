@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Spotify Login</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        padding: 2rem;
+        background-color: #121212;
+        color: white;
+      }
+
+      button {
+        background-color: #1db954;
+        color: white;
+        border: none;
+        padding: 1rem 2rem;
+        font-size: 1rem;
+        cursor: pointer;
+        border-radius: 25px;
+        margin-top: 1rem;
+      }
+
+      button.logout {
+        background-color: #e53935;
+        margin-left: 1rem;
+      }
+
+      pre {
+        background-color: #1e1e1e;
+        padding: 1rem;
+        border-radius: 10px;
+        overflow-x: auto;
+        margin-top: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Spotify User-Login</h1>
+    <p>Please click on the button to log into you Spotify Account:</p>
+
+    <button onclick="window.location.href='/login'">Spotify Login</button>
+  </body>
+</html>
